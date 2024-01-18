@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.suggestion-item {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.suggestion-arrow-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.suggestion {
+  color: #475569;
+  font-size: 15px;
+}
+.arrow-logo {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (min-width: 768px) {
+  .suggestion {
+    color: #475569;
+    font-size: 25px;
+  }
+  .arrow-logo {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+  }
+}
